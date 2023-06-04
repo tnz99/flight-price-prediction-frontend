@@ -65,8 +65,8 @@ const Contact = () => {
                         </p>
 
                         <p className="contactus-para">
-                            So go ahead, ask us how we can help you today. We're here to<br />
-                            make your travel dreams come true, and we can't wait to hear<br />
+                            So go ahead, ask us how we can help you today. We're here to
+                            make your travel dreams come true, and we can't wait to hear
                             from you!
                         </p>
                     </div>
