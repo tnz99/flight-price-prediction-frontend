@@ -44,7 +44,7 @@ const Home = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch('https://fpp-api.onrender.com/api/v1/predictions')
+        fetch('https://flight-price-prediction-backend.onrender.com/api/v1/predictions')
             .then(response => response.json())
             .then(data => { setData(data) });
     }, []);

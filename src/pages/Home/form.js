@@ -34,7 +34,7 @@ const Form = () => {
         event.preventDefault();
 
         try {
-            const response = await fetch('https://fpp-api.onrender.com/api/v1/predict', {
+            const response = await fetch('https://flight-price-prediction-backend.onrender.com/api/v1/predict', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -54,7 +54,7 @@ const Form = () => {
     };
 
     useEffect(() => {
-            fetch('https://fpp-api.onrender.com/api/v1/airlines')
+            fetch('https://flight-price-prediction-backend.onrender.com/api/v1/airlines')
                 .then(response => response.json())
                 .then(data => {
                     setAirlines(data.airlines.flat())
