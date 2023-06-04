@@ -58,9 +58,9 @@ const Contact = () => {
                     <div className="contact-us-content-left">
                         <h2 className="contactus-title">Ask us how we can help you</h2>
                         <p className="contactus-para">
-                            If you're not sure where to start, just ask! Our friendly and <br />
-                            knowledgeable team is always ready to answer your questions <br />
-                            and help you plan your next adventure. No matter what your <br />
+                            If you're not sure where to start, just ask! Our friendly and 
+                            knowledgeable team is always ready to answer your questions 
+                            and help you plan your next adventure. No matter what your
                             travel needs are, we're here to help you make them a reality.
                         </p>
 
