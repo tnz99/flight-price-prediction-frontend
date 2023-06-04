@@ -1,0 +1,36 @@
+.section {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.section-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 200%;
+    line-height: 30px;
+    padding: auto;
+    color: #023047;
+}
+
+@media screen and (max-width: 1257px) {
+    .section-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-header {
+        width: 100%;
+        font-weight: 400;
+        font-size: 30px;
+    }
+}

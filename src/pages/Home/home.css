@@ -1,0 +1,28 @@
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-flex-center {
+    align-items: center;
+}
+
+.charts {
+    margin: 2%;
+}
+
+.charts-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #023047;
+
+    text-align: center;
+    margin-bottom: 10%;
+}

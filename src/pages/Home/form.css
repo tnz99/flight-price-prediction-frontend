@@ -1,0 +1,103 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inputs {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.inputs input, select {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 6px;
+    gap: 10px;
+    margin-right: 2rem;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.inputs input::placeholder, input[type="date"] {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.25);
+}
+
+input[type="date"] {
+    width: 200px;
+}
+
+.one-way {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+
+.btn {
+    margin-top: 4%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 170px;
+    height: 38px;
+
+    background: #FB8500;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+
+
+    /*  btn text */
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    align-self: center;
+}
+
+@media only screen and (max-width: 1125px) {
+
+    .inputs input, select {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+    }
+}
