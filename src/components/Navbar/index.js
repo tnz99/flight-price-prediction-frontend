@@ -11,7 +11,6 @@ const Navbar = () => {
       <div className="navbar">
         <div className="navbar-logo">
           <img
-            className="logo"
             height={53}
             src={logo}
             alt="logo"
