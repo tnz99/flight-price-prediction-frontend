@@ -1,4 +1,4 @@
-.table {
+/* .table {
     border-collapse: collapse;
     font-family: 'Roboto';
     font-style: normal;
@@ -15,4 +15,36 @@ thead {
 
 td {
     border: 1px solid rgb(2, 48, 71);
-}
+} */
+
+.table {
+    border-collapse: collapse;
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+  }
+  
+  thead {
+    background-color: rgb(2, 48, 71);
+    color: white;
+  }
+  
+  td {
+    border: 1px solid rgb(2, 48, 71);
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .table {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .table {
+      font-size: 14px;
+    }
+  }
+  
