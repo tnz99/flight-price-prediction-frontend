@@ -26,9 +26,9 @@ const ResultForm = ({data}) => {
             <div className="flex flex-column">
                 <input placeholder={"Airline: "+ data.Airline} />
 
-                <div className="flex flex-row justify-space-between">
+                <div className="to-from-container flex flex-row justify-space-between">
                     <input disabled placeholder={"Source: " + data.Source}/>
-                    <img height={30} src={transferIcon} alt="transfer"/> 
+                    <img className="transfer-icon" height={30} src={transferIcon} alt="transfer"/> 
                     <input disabled placeholder={"Dest: " + data.Destination}/>
                 </div>
                 <input disabled placeholder={"Duration: " + data.Duration_minutes +" Minutes"} />
@@ -52,9 +52,8 @@ const Prediction = () => {
                     <div className="prediction-left-content flex flex-column align-flex-start">
                         <h1 className="prediction-text">Fly Smarter with Us</h1>
                         <p className="prediction-subtext">Accurate Flight Predictions for Smart Travelers</p>
-                        <div className="image-container">
-                            <img alt="display-pic" className="image-item" src={displayImage} />
-                        </div>
+                     
+                        <img alt="display-pic" className="image-item" src={displayImage} />
                     </div>
 
                     <ResultForm data={formData}/>

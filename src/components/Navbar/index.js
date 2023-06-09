@@ -11,6 +11,7 @@ const Navbar = () => {
       <div className="navbar">
         <div className="navbar-logo">
           <img
+            className="logo"
             height={53}
             src={logo}
             alt="logo"
@@ -20,6 +21,10 @@ const Navbar = () => {
         <ul className="nav-list">
           <li className="nav-list-item">
             <Link className="navlink" to={'/'}>Home</Link>
+          </li>
+
+          <li className="nav-list-item">
+            <Link className="navlink" to={'/info'}>Info</Link>
           </li>
 
           <li className="nav-list-item">

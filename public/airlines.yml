@@ -1,0 +1,324 @@
+1. DrukAir:
+  source:
+    - Paro
+    - Kathmandu
+    - Bangkok
+    - Paro
+    - Nepal
+    - Paro
+    - Paro
+    - Paro
+    - Paro
+
+  destination:
+    - Kolkata
+    - Paro
+    - Paro
+    - Bangkok
+    - Paro
+    - Dhaka
+    - Bagdora
+    - Delhi
+    - Guwahati
+
+2. BhutanAirline:
+  source:
+    - Paro
+    - Paro
+    - Bangkok
+    - Kolkata
+    - Delhi
+
+  destination:
+    - Bangkok
+    - Delhi
+    - Paro
+    - Paro
+    - Paro
+
+3. Singapore Airline:
+  source:
+    - Singapore
+    - Singapore
+    - Perth
+    - Singapore
+    - Singapore
+    - Singapore
+
+  destination:
+    - Sydney
+    - Perth
+    - Singapore
+    - Melbourne
+    - New York
+    - Bangkok
+
+4. IndiGo:
+  source:
+    - New Delhi
+    - Mumbai(BOM)
+    - Banglore
+    - Kolkata
+    - Banglore
+    - Delhi
+    - Chennai 
+    - Mumbai
+    - Banglore
+    - Banglore
+    - New Delhi
+    - Singapore
+    - Singapore
+    - Singapore 
+    - Singapore
+    - Jaipur
+    - Bangkok
+
+  destination:
+    - Ras AI Khaimah
+    - Ras AI Khaimah
+    - New Delhi
+    - Banglore
+    - New Delhi
+    - Cochin
+    - Kolkata
+    - Hyderbad
+    - Kolkata
+    - Delhi
+    - Abu Dhabi
+    - Chennia
+    - Mumbai
+    - Paris
+    - Delhi
+    - Paro
+    - Colombo
+
+5. Air India:
+  source:
+    - Kolkata
+    - Delhi
+    - Chennai
+    - Banglore
+    - Mumbai
+    - Singapore
+    - Bangkok
+    - Kochi
+    - South Korea
+  destination:
+    - Banglore
+    - Cochin
+    - Kolkata
+    - New Delhi
+    - Hyderabad
+    - Delhi
+    - London
+    - Colombo
+    - Chennai
+    - Paro
+    - Goa
+6. Jet Airways:
+  source:
+    - Delhi
+    - Banglore
+    - Kolkata
+    - Mumbai
+  destination:
+    - Cochin
+    - New Delhi
+    - Banglore
+    - Hyderabad
+    - Delhi
+7. SpiceJet:
+  source:
+    - Kolkata
+    - Delhi
+    - Banglore
+    - Chennai
+    - Mumbai
+    - New Delhi
+  destination:
+    - Banglore
+    - Cochin
+    - New Delhi
+    - Kolkata
+    - Delhi
+    - Hyderabad
+    - Dubai
+    - Paro
+8. Multiple carriers:
+  source:
+    - Delhi
+  destination:
+    - Cochin
+
+9. Go Air:
+  source:
+    - Delhi
+    - Banglore
+    - Kolkata
+
+  destination:
+    - Cochin
+    - Delhi
+    - Banglore
+    - New Delhi
+
+10. Vistara:
+  source:
+    - Banglore
+    - Chennai
+    - Mumbai
+    - Kolkata
+    - Delhi
+    - Chandigarh
+    - Amritsar
+
+  destination:
+    - Delhi
+    - Kolkata
+    - Hyderabad
+    - New Delhi
+    - Banglore
+    - Cochin
+    - London
+    - New York
+
+11. Quater Airways:
+  source:
+    - New York 
+    - Budapest(BUD)
+    - Colombo
+    - Dubai(DXB)
+    - Oslo(OSL)
+    - Bangkok
+    - Singapore
+    - Karachi
+    - PAR
+    - NYC
+    - RUH
+    - SVO
+
+
+  destination:
+    - Perth, WA (PER)
+    - Singapore(SIN)
+    - Vienna(VIE)
+    - Joinville(JOI)
+    - Kuwait(KWI)
+    - Gold Coast (OOL)
+    - Colombo
+    - Edinburgh
+    - Frankfurt
+    - Paris
+    - London
+    - NYC
+    - RUH
+    - PAR
+    - SVO
+
+12. Thai Airways:
+  source:
+    - Bangkok
+    - Banglore
+    - Singapore
+    - South Korea
+
+
+  destination:
+    - Sydney
+    - Canada
+    - Tokyo
+    - Paris
+    - Pakistan
+
+13. Korean Air:
+  source:
+    - South Korea
+    - SVO
+
+  destination:
+    - China
+    - PAR
+
+14. Air Canada:
+  source:
+    - Madrid
+    - Sydney (SYD)
+    - PAR
+    - NYC
+
+
+  destination:
+    - Victoria
+    - Toronto (YYZ)
+    - NYC
+    - RUH
+   
+15. Austrian Airlines:
+  source:
+    - PAR
+  destination:
+    - NYC   
+
+16. Air Arabia:
+  source:
+    - Delhi
+  destination:
+    - Sharjah     
+
+17. Air Asia:
+  source:
+    - Banglore
+    - Kolkata
+    - Delhi
+    - Taiwan
+
+  destination:
+    - Delhi
+    - Banglore
+    - Cochin
+    - New Delhi
+    - Philippines
+
+18. Emirates:
+  source:
+    - Bangkok
+    - Delhi
+    - Singapore
+    - NYC
+    - RUH
+
+
+  destination:
+    - Sydney
+    - Canada
+    - Perth
+    - Canberra
+    - RUH
+    - PAR
+
+19.Kuwait Airways:
+  source:
+    - Liberia(LIR)
+    - RUH
+
+  destination:
+    - Kuwait(KWI)
+    - PAR
+
+20.China Airlines:
+  source:
+    - Rome (FCO)
+
+  destination:
+    - Busan (PUS)   
+
+   
+ 
+   
+  
+
+
+    
+
+ 
+

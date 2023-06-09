@@ -2,7 +2,7 @@ import React from "react";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { About, Home, Prediction, Contact } from "./pages";
+import { About, Home, Prediction, Contact, Info } from "./pages";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +20,10 @@ const router = createBrowserRouter([
     {
         path: '/contact',
         element: <Contact />
+    },
+    {
+        path: '/info',
+        element: <Info />
     }
 ]);
 

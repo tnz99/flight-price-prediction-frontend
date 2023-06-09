@@ -50,3 +50,20 @@ a {
 .navlink {
     font-size: 90%;
 }
+@media (max-width: 616px) {
+    .logo {
+        height: 50px;
+    }
+    .nav-list {
+        padding-left: 0px;
+    }
+    .nav-list-item {
+        padding: 0;
+    }
+    .navlink {
+        font-size: 12px;
+    }
+    .navbar-logo {
+        margin-left: 5px;
+    }
+}

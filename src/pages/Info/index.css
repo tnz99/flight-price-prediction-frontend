@@ -1,0 +1,18 @@
+.table {
+    border-collapse: collapse;
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+thead {
+    background-color:  rgb(2, 48, 71);
+    color: white;
+
+}
+
+td {
+    border: 1px solid rgb(2, 48, 71);
+}
