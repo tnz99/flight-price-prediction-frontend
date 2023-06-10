@@ -26,7 +26,7 @@ const Chart = ({ data }) => {
       <div ref={chartRef} className="chart-container">
         <LineChart
           className="graph"
-          data={data}
+          data= {data}
           width={chartWidth}
           height={400}
         >
@@ -34,7 +34,7 @@ const Chart = ({ data }) => {
           <XAxis dataKey="month" />
           <YAxis />
           <Tooltip />
-          <Line type="monotone" dataKey="price" stroke="#8884d8" activeDot={{ r: 8 }} />
+          <Line type="monotone" dataKey="price" stroke="#8884d8" activeDot={{ r: 8 }}  />
         </LineChart>
       </div>
     );
@@ -59,7 +59,7 @@ const Home = () => {
             </HeroBanner>
             <WhySection title="Ready to save on airfare and travel smarter? Why settle for less when you can choose the best?"/>
             <div className="charts">
-                <h1 className="charts-title">Flight Price Analysis</h1>
+                <h1 className="charts-title">Flight Price Analysis (Price($) Vs Month)</h1>
                 <Chart data={data} />
             </div>
             <Footer />
