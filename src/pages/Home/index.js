@@ -59,7 +59,7 @@ const Home = () => {
             </HeroBanner>
             <WhySection title="Ready to save on airfare and travel smarter? Why settle for less when you can choose the best?"/>
             <div className="charts">
-                <h1 className="charts-title">Flight Price Analysis <br/>(Price($) Vs Month)</h1>
+                <h1 className="charts-title">Price($) Vs Month Analysis</h1>
                 <Chart data={data} />
             </div>
             <Footer />
