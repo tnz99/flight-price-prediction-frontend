@@ -75,12 +75,15 @@ const Form = () => {
             </label>
 
             <div className="inputs">
+            
                 <select 
+
                     name='airline'
                     value={formState.airline}
                     onChange={handleChange}
                     required
                 >
+                     <option value="">Select Airline</option>
                     {
                         airlines.map((airline) => (<option value={airline}>{airline}</option>))
                     }
@@ -91,6 +94,7 @@ const Form = () => {
                     value={formState.source}
                     onChange={handleChange}
                 >
+                    <option value="">Select Source</option>
                     {
                         sources.map((source) => (<option value={source}>{source}</option>))
                     }
@@ -101,6 +105,7 @@ const Form = () => {
                     value={formState.destination}
                     onChange={handleChange}
                 >
+                      <option value="">Select Destination</option>
                     {
                         destinations.map((destination) => (<option value={destination}>{destination}</option>))
                     }
