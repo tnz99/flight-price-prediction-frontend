@@ -5,9 +5,9 @@ import './form.css'
 const Form = () => {
     const [formState, setFormState] = useState({
         oneway: false,
-        airline: "Aegean Airlines",
-        source: "Abu Dhabi",
-        destination: "Abu Dhabi",
+        airline: "Airlines",
+        source: "Source",
+        destination: "Destination",
         date: ""
     });
     const [airlines, setAirlines] = useState(['Airline'])
